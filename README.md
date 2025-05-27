@@ -8,14 +8,15 @@
   <img src="https://img.shields.io/badge/Release-v2.1.0-green" alt="Version 2.1.0">
 </div>
 
-## 🚀 Smart Restaurant Analytics Powered by AI
+## 🚀 No-Code Drag & Drop AI Builder
 
-BlockfyML's **Computer Vision Monitoring Framework (CCMF)** combines conversational AI with advanced computer vision to transform restaurant management.
+BlockfyML allows you to create AI workflows with a conversational builder and a vast library of tools and pre-trained foundational deep learning models.
 
 ```diff
 + New in v2.1: Session persistence & multi-image batch processing
 ! Now supports real-time video streams via RTSP
 
+```mermaid
 graph LR
     A[User Image] --> B(MagicWand AI)
     B --> C{DETR-ResNet50}
@@ -24,3 +25,4 @@ graph LR
     D --> F[People Count]
     E & F --> G[Annotated Output]
     G --> H((Cloud Storage))
+```
