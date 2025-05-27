@@ -15,7 +15,7 @@ BlockfyML allows you to create AI workflows with a conversational builder and a 
 ```diff
 + New in v2.1: Session persistence & multi-image batch processing
 ! Now supports real-time video streams via RTSP
-
+```
 ```mermaid
 graph LR
     A[User Image] --> B(MagicWand AI)
